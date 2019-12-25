@@ -1,0 +1,2 @@
+export const GET_TRACKS = 'GET_TRACKS'
+export const SET_SEARCH_RESULTS = 'SET_SEARCH_RESULTS'

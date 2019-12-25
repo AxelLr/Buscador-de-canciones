@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React,{ Fragment } from 'react'
+import { HashRouter, Route, Switch } from 'react-router-dom'
+// COMPONENTES
+import Navbar from './components/navbar/Nabvar'
+// PAGINAS 
+import Layout from './pages/layout/Layout'
+import Lyrics from './pages/lirycs/Lyrics'
+// CONTEXT
+import { State } from './context/Context'
 
-function App() {
+export default function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <State> 
+        <HashRouter>
+            <Fragment>
+              <Navbar />
+                <div className='container'> 
+                  <Switch>
+                    <Route exact path='/' component={Layout} />
+                    <Route exact path='/lyrics/track/:id' component={Lyrics} /> 
+                  </Switch>
+                </div>
+            </Fragment>
+        </HashRouter>
+    </State>
+  )
 }
 
-export default App;
