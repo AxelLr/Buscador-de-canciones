@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Buscador-de-canciones/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/Buscador-de-canciones/static/js/main.5ce509bb.chunk.js",
+    "main.js.map": "/Buscador-de-canciones/static/js/main.5ce509bb.chunk.js.map",
+    "runtime-main.js": "/Buscador-de-canciones/static/js/runtime-main.628eea3e.js",
+    "runtime-main.js.map": "/Buscador-de-canciones/static/js/runtime-main.628eea3e.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/Buscador-de-canciones/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.57dddea5.chunk.js": "/Buscador-de-canciones/static/js/2.57dddea5.chunk.js",
+    "static/js/2.57dddea5.chunk.js.map": "/Buscador-de-canciones/static/js/2.57dddea5.chunk.js.map",
+    "index.html": "/Buscador-de-canciones/index.html",
+    "precache-manifest.61fc5a7fb3604e6c709b1c41311bd889.js": "/Buscador-de-canciones/precache-manifest.61fc5a7fb3604e6c709b1c41311bd889.js",
+    "service-worker.js": "/Buscador-de-canciones/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/Buscador-de-canciones/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/Buscador-de-canciones/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.57dddea5.chunk.js.LICENSE": "/Buscador-de-canciones/static/js/2.57dddea5.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.628eea3e.js",
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.57dddea5.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.5ce509bb.chunk.js"
+  ]
+}
